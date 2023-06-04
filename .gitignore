@@ -1,0 +1,9 @@
+# Project exclude paths
+/.gradle/
+/Coffee Machine (Java)/task/build/
+/Topics/Comments/Javadoc comment/out/
+/Topics/Comments/Javadoc comment/out/production/classes/
+/Topics/Comments/The countdown/out/
+/Topics/Comments/The countdown/out/production/classes/
+/Topics/Scanning the input/Printing strings in the same order/out/
+/Topics/Scanning the input/Printing strings in the same order/out/production/classes/
