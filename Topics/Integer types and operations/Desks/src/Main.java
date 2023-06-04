@@ -6,8 +6,8 @@ class Main {
         int inputNum1 = scanner.nextInt();
         int inputNum2 = scanner.nextInt();
         int inputNum3 = scanner.nextInt();
-        int result = inputNum1/2 + inputNum2/2 + inputNum3/2
-                + inputNum1%2 + inputNum2%2 + inputNum3%2;
+        int result = inputNum1 / 2 + inputNum2 / 2 + inputNum3 / 2
+                + inputNum1 % 2 + inputNum2 % 2 + inputNum3 % 2;
         System.out.print(result);
     }
 }
