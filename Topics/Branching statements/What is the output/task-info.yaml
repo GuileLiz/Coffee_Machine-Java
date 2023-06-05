@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Javadoc comments
-- text: All types of comments are used here
-- text: Standard multi-line comments
-- text: End-of-line comments
+- text: 000
+- text: 012
+- text: 0
+- text: '000111222 '
 files:
 - name: src/Task.java
   visible: true
@@ -17,7 +17,7 @@ files:
       }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/2502#comment
+feedback_link: https://hyperskill.org/learn/step/1969#comment
 status: Solved
 record: -1
 local_check: false

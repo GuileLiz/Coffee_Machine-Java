@@ -1,10 +1,4 @@
-type: choice
-is_multiple_choice: false
-options:
-- text: Javadoc comments
-- text: All types of comments are used here
-- text: Standard multi-line comments
-- text: End-of-line comments
+type: theory
 files:
 - name: src/Task.java
   visible: true
@@ -17,7 +11,7 @@ files:
       }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/2502#comment
+feedback_link: https://hyperskill.org/learn/step/3507#comment
 status: Solved
 record: -1
-local_check: false
+post_submission_on_open: true
