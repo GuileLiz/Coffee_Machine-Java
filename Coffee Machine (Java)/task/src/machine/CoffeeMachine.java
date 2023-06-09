@@ -9,15 +9,31 @@ public class CoffeeMachine {
     public static void main(String[] args) {
         //input value
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Write how many ml of water the coffee machine has:");
-        int quantityOfWater = scanner.nextInt();
-        System.out.println("Write how many ml of milk the coffee machine has:");
-        int quantityOfMilk = scanner.nextInt();
-        System.out.println("Write how many grams of coffee beans the coffee machine has:");
-        int gramsOfCoffee = scanner.nextInt();
-        System.out.println("Write how many cups of coffee you will need:");
-        int cupsOfCoffeeWant = scanner.nextInt();
-        
+        int quantityOfWater = 400;
+        int quantityOfMilk = 540;
+        int gramsOfCoffee = 120 ;
+        int numOfCups = 9;
+        int money = 550 ;
+
+        System.out.println("The coffee machine has:");
+        System.out.println(quantityOfWater + " ml of water");
+        System.out.println(quantityOfMilk + " ml of milk");
+        System.out.println(gramsOfCoffee + " g of coffee beans");
+        System.out.println(numOfCups + "disposable cups");
+        System.out.println("$" + money + "disposable cups");
+
+        System.out.println();
+        System.out.println("Write action (buy, fill, take):");
+        String action = scanner.nextLine();
+
+        System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
+        int coffeeType = scanner.nextInt();
+
+        /**Switch (action) {
+            case buy:
+
+        }
+
         //determining the number of cups
         int cupsBaseOnWater = quantityOfWater/WATERPERCUP;
         int cupsBaseOnMilk = quantityOfMilk/MILKPERCUP;
@@ -34,6 +50,6 @@ public class CoffeeMachine {
             System.out.println("Yes, I can make that amount of coffee (and even " 
                                + excessNumbersOfCupsCanServe 
                                + " more than that)");
-        }
+        } */
     }
 }
