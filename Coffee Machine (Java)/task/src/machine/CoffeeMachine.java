@@ -29,7 +29,7 @@ public class CoffeeMachine {
         System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
         int coffeeType = scanner.nextInt();
 
-        /**Switch (action) {
+        Switch (action) {
             case buy:
 
         }
@@ -50,6 +50,6 @@ public class CoffeeMachine {
             System.out.println("Yes, I can make that amount of coffee (and even " 
                                + excessNumbersOfCupsCanServe 
                                + " more than that)");
-        } */
+        }
     }
 }
